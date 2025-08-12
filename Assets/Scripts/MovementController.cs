@@ -8,7 +8,7 @@ public class MovementController : MonoBehaviour
 
     private const string ANIM_PARAM_IS_WALKING = "isWalking";
     private const string ANIM_PARAM_IS_RUNNING = "isRunning";
-    private const string ANIM_PARAM_VELOCITY = "Velocity";
+    private const string ANIM_PARAM_VELOCITY = "VelocityZ";
 
     private float velocity = 0.0f;
     [SerializeField] private float acceleration = 0.5f;
